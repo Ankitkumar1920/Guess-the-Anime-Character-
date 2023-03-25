@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    /* background-image: url(""); */
+    /* background-size: 200vh; */
+    background: rgba(71, 219, 252, 0.3);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    text-align: center;
+    padding: 10px;
+    width: 450px;
+    margin: 5px;
+}
+
+.btn{
+    background-color: rgba(5, 173, 210, 0.3);
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-color: aliceblue;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.anime-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    border: 3px solid ;
+}
+
+/* .anime-name{
+    margin: 20px;
+    background-color: rgba(5, 173, 210, 0.3);
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+} */
+
+.guess{
+    text-align: center;
+    padding: 10px;
+    /* width: 450px; */
+    margin: 5px;
+}
+
+.guess label{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.char-name{
+    margin-top: 10px;
+    width: 400px;
+    height: 4vh;
+}
+
+.btn-submit{
+    margin-top: 10px;
+    width: 20%;
+    height: 4vh;
+    /* font-weight: bold; */
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(5, 173, 210, 0.3);
+    border-color: aliceblue;
+}
+
+.anime-container{
+    display: none;
+}
+
+.group{
+    margin-left: 10vh;
+}
+
+.correct{
+    display: none;
+    align-items: right;
+    text-align: center;
+}
+
+.wrong{
+    display: none;
+}
+
+.scores{
+    display: none;
+    margin: 10vh 0 30vh 0;
+}
+
+.score{
+    display: none;
+}
+
+.scores-count{
+    display: none;
+    font-size: 50px;
+}
+
+.high-score{
+    display: none;
+}

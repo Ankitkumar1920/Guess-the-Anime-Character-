@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Anime?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Guess the Anime Character</h1>
+        <button class="btn" id="btn">Get Anime</button>
+        <div class="anime-container">
+            <img class="anime-image" src="">
+            <div class="guess">
+                <label for="character">Guess the character : </label>
+                <input type="text" class="char-name">
+                <button class="btn-submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="randihumai">
+        Welcome back! your last highscore was<span class="last-high-score"></span>
+    </div>
+    <div class="group">
+        <div class="correct">
+            <h2>Your answer is : </h2>
+            <h1>Correct</h1>
+        </div>
+        <div class="wrong">
+            <h2>Your answer is : </h2>
+            <h1>Wrong</h1>
+        </div>
+    </div>
+    <div class="scores">
+        <h1 class="score">Your Score is : </h1>
+        <h1 class="high-score">Your High Score is : <span class="high-score-count"></span></h1>
+        <span class="scores-count"></span>
+
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
